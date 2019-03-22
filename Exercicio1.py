@@ -1,0 +1,15 @@
+a =int (input("Digite o valor de A: "))
+print(a)
+b = int(input("Digite o valor de B: "))
+print(b)
+c = int(input("DIgite o valor de C: "))
+print(b)
+delta= ( b**2-4*a*c)
+print ("Delta: ",delta)
+raizdelta=delta**0.5
+print("Raiz delta: ",raizdelta)
+x1=(-b+raizdelta)/(2*a)
+x2=(-b-raizdelta)/(2*a)
+print("x1: ",x1)
+print("x2: ",x2)
+
